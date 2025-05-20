@@ -10,4 +10,4 @@ Downlado data here [https://drive.google.com/drive/folders/1Bz7cygevBJd9_gEKhTbe
 
 ## Training scripts
 
-python train.py --eval_all --unsupervised --batch_size 63 --augment 'ws' - --max_epoch 300 --model_class ProtoNet --backbone_class ConvNet --dataset Food2K --way 5 --shot 1 --query 5 --eval_query 15 --lr 0.03 --lr_scheduler cosine --gpu 0 --eval_interval 2 --similarity cosine
+python train.py --eval_all --unsupervised --batch_size 64 --augment 'ws' - --max_epoch 300 --model_class ProtoNet --backbone_class ConvNet --dataset Food2K --way 5 --shot 1 --query 5 --eval_query 15 --lr 0.03 --lr_scheduler cosine --gpu 0 --eval_interval 2 --similarity cosine
