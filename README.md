@@ -11,6 +11,10 @@ Downlado data here [https://drive.google.com/drive/folders/1Bz7cygevBJd9_gEKhTbe
 ## Training scripts
 
 python train.py --eval_all --unsupervised --batch_size 64 --augment 'ws' - --max_epoch 300 --model_class ProtoNet --backbone_class ConvNet --dataset Food2K --way 5 --shot 1 --query 5 --eval_query 15 --lr 0.002 --lr_scheduler cosine  --gpu 0 --eval_interval 2 --similarity cosine 
+## Test scripts
+python eval.py --path checkpoint.pth \
+  --eval_all --model_class ProtoNet --backbone_class ConvNet --num_test_episodes 1000 \
+  --gpu 0 --eval_dataset Food2K --augment test --similarity cosine
 ## Acknowledgment
 We thank the following repos providing helpful components/functions in our work.
 - [ProtoNet](https://github.com/cyvius96/prototypical-network-pytorch)
