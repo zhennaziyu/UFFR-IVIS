@@ -30,7 +30,7 @@ This repository contains the official implementation of the paper **Unsupervised
 
 ## Project Structure
 
-```text
+```
 .
 ├── assets/                
 ├── data/                  
@@ -82,6 +82,7 @@ For access to the original **Food2K** dataset, please follow the official instru
 After downloading the dataset, ensure that the folder structure matches the following:
 
 ### Take MiniFood as an example
+```
 data/
 ├── class_lists.json
 ├── train_label.json
@@ -95,7 +96,7 @@ data/
     ├── [class_name_01 | class_name_02 | ...]
     │   └── [image_001.jpg | label_001.txt | ...]
     └── ...
-
+```
 
 ## Training scripts
 
