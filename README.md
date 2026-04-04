@@ -62,7 +62,7 @@ conda activate encoder_env
 
 # Install PyTorch (Ensure it matches your CUDA version)
 pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu118](https://download.pytorch.org/whl/cu118)
-
+```
 ### 3. Install dependencies
 
 ```bash
