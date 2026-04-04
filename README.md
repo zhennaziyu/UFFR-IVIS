@@ -29,7 +29,7 @@ This repository contains the official implementation of the paper **Unsupervised
 ### 1.Few-shot classification accuracy (%) with Conv-4 backbone
 
 <p align="center">
-  <img src="assets/results.png" alt="MiniTest1 and MinitTest2 results" width="900">
+  <img src="assets/results1.png" alt="MiniTest1 and MinitTest2 results" width="900">
 </p>
 
 ### 2. Illusrtration of the support instances in the auxiliary task
