@@ -78,11 +78,11 @@ You can download the processed datasets here:
 
 For access to the original **Food2K** dataset, please follow the official instructions:  
 [Food2K Official Website](http://123.57.42.89/FoodProject.html)
+
 After downloading the dataset, ensure that the folder structure matches the following:
 
-### MiniFood and LargeFood
-
-Dataset_Root/
+### Take MiniFood as an example
+data/
 ├── class_lists.json
 ├── train_label.json
 ├── dis_train.json
