@@ -81,7 +81,7 @@ For access to the original **Food2K** dataset, please follow the official instru
 
 After downloading the dataset, ensure that the folder structure matches the following:
 
-### Take MiniFood as an example
+Take MiniFood as an example
 ```
 data/
 ├── class_lists.json
@@ -98,13 +98,18 @@ data/
     └── ...
 ```
 
-## Training scripts
-
-python train.py --eval_all --unsupervised --batch_size 64 --augment 'ws' - --max_epoch 300 --model_class ProtoNet --backbone_class ConvNet --dataset Food2K --way 5 --shot 1 --query 5 --eval_query 15 --lr 0.002 --lr_scheduler cosine  --gpu 0 --eval_interval 2 --similarity cosine 
-## Test scripts
+## 🏃‍♂️ Quick Start
+### 1. Training the Model
+```
+To train the model from scratch, use the train.py script.
+python train.py --eval_all --unsupervised --batch_size 64 --augment 'ws' - --max_epoch 300 --model_class ProtoNet --backbone_class ConvNet --dataset Food2K --way 5 --shot 1 --query 5 --eval_query 15 --lr 0.002 --lr_scheduler cosine  --gpu 0 --eval_interval 2 --similarity cosine
+```
+### 2. Testing the Model
+```
 python eval.py --path checkpoint.pth \
-  --eval_all --model_class ProtoNet --backbone_class ConvNet --num_test_episodes 1000 \
+  --eval_all --model_class ProtoNet --backbone_class ConvNet --num_test_episodes 10000 \
   --gpu 0 --eval_dataset Food2K --augment test --similarity cosine
+```
 ## Acknowledgment
 We thank the following repos providing helpful components/functions in our work.
 - [ProtoNet](https://github.com/cyvius96/prototypical-network-pytorch)
