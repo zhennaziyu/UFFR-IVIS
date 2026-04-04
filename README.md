@@ -33,11 +33,11 @@ Our framework introduces two innovative modules to achieve unsupervised few-shot
 - [📌 Introduction](#-introduction)
 - [📢 News](#-news)
 - [✨ Key Features](#-key-features)
-- [🧩 Project Structure](#-project-structure)
 - [🏗️ Architecture](#️-architecture)
 - [📊 Experiment Results](#-experiment-results)
+- [🧩 Project Structure](#-project-structure)
 - [🚀 Installation](#-installation)
-- [📂 Tafasedt](#-dataset)
+- [📂 Dafaset](#-dataset)
 - [🏃‍♂️ Quick Start](#️-quick-start)
 - [📝 Citation](#-citation)
 - [🤝 Acknowledgements](#-acknowledgements)
@@ -71,7 +71,7 @@ Our framework introduces two innovative modules to achieve unsupervised few-shot
 ├── model/
 ├── eval.py
 ├── test.py
-├── train.py
+├── train.py # Main training loop and optimization
 ├── utils.py                  
 ├── README.md
 ├── requirements.txt
@@ -162,7 +162,6 @@ We thank the following repositories for providing helpful components and impleme
 
 - [ProtoNet](https://github.com/cyvius96/prototypical-network-pytorch)
 - [TSP-Head](https://github.com/hanlu-nju/revisiting-UML/)
-- 
 ## License
 
 This project is released under the Apache License 2.0.
