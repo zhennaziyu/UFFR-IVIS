@@ -71,7 +71,25 @@ pip install -r requirements.txt
 
 ## Dataset
 
+For evaluation on the newly proposed task of unsupervised few-shot food recognition, we created two datasets: {MiniFood} and {LargeFood} with different scales,  based on the public large-scaled Food2K dataset that contains 2000 fine-grained food classes. Download the these datasets in (https://drive.google.com/drive/folders/1Bz7cygevBJd9_gEKhTbejQqW45m9FEIH?usp=drive_link). As for the original Food2K dataset, pls follow the instructions in (http://123.57.42.89/FoodProject.html)
+
+After downloading the dataset, ensure that the folder structure matches the following:
+
 ### MiniFood and LargeFood
+
+Dataset_Root/
+├── class_lists.json
+├── train_label.json
+├── dis_train.json
+├── dis_train_label.json
+├── MiniTest1.json
+├── MiniTest1_label.json
+├── MiniTest2.json
+├── MiniTest2_label.json
+└── [images | data_folders] /
+    ├── [class_name_01 | class_name_02 | ...]
+    │   └── [image_001.jpg | label_001.txt | ...]
+    └── ...
 Downlado data here [https://drive.google.com/drive/folders/1Bz7cygevBJd9_gEKhTbejQqW45m9FEIH?usp=drive_link]
 
 ## Training scripts
