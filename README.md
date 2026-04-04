@@ -67,9 +67,9 @@ Our framework introduces two innovative modules to achieve unsupervised few-shot
 ```
 .
 ├── assets/                
-├── data/                  
-├── model/
-├── eval.py
+├── data/    # Images and splits for the data sets.   
+├── model/ # It contains the main files of the code, including the few-shot learning trainer, the dataloader, the network architectures, and baseline and comparison models.
+├── eval.py # Testing file
 ├── test.py
 ├── train.py # Main training loop and optimization
 ├── utils.py                  
