@@ -16,6 +16,37 @@
 
 This repository contains the official implementation of the paper **Unsupervised Few-shot Food Recognition with Intra-Class Variationand Inter-Class Similarity Modeling**. It focuses on the **Unsupervised Few-shot Learning for Food Recoginition** task: it leverages large-scale unlabeled food data during training to capture intra-class variation and inter-class similarity, and adapts to novel classes at test time using only a few labeled examples.
 
+### Framework Figure
+
+```markdown
+![Framework](./assets/framework.png)
+```
+
+实际使用时，把上面这行替换成：
+
+```markdown
+![Framework](./assets/framework.png)
+```
+
+然后在下面补一句说明：
+
+**Figure 1.** Overall framework of `<Method Name>`.
+
+---
+
+## Project Structure
+
+```text
+.
+├── assets/                # 图片、框架图、结果图、demo 图
+├── configs/               # 配置文件
+├── data/                  # 数据说明（不建议直接上传大数据本体）
+├── scripts/               # 训练、推理、评测脚本
+├── src/                   # 核心源码
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
 
 ## Overview
 UFFR-IVIS consists of  (1) dual diversity-injected support/query representation learning that introduces instance-level and representation-level diversities for the representation learning of support/query instance to model the characteristics of high intra-class variation; and  (2) dual regularization-enhanced meta learning that designs two regularizations: auxiliary task-based intra-class regularization and similarity-guided inter-class regularization to regularize the intra-class variation and inter-class similarity modeling, respectively.
