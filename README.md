@@ -16,7 +16,19 @@
 
 This repository contains the official implementation of the paper **Unsupervised Few-shot Food Recognition with Intra-Class Variationand Inter-Class Similarity Modeling**. It focuses on the **Unsupervised Few-shot Learning for Food Recoginition** task: it leverages large-scale unlabeled food data during training to capture intra-class variation and inter-class similarity, and adapts to novel classes at test time using only a few labeled examples.
 
+## 📑 Table of Contents
 
+- [📌 Introduction](#-introduction)
+- [📢 News](#-news)
+- [✨ Key Features](#-key-features)
+- [🧩 Project Structure](#-project-structure)
+- [🏗️ Architecture](#️-architecture)
+- [📊 Experiment Results](#-experiment-results)
+- [🚀 Installation](#-installation)
+- [📂 Tafasedt](#-dataset)
+- [🏃‍♂️ Quick Start](#️-quick-start)
+- [📝 Citation](#-citation)
+- [🤝 Acknowledgements](#-acknowledgements)
 
 ## 🏗️ Architecture
 
