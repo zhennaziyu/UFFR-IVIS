@@ -44,6 +44,31 @@ This repository contains the official implementation of the paper **Unsupervised
 └── LICENSE
 ```
 
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/iLearn-Lab/TCSVT25-UFFR-IVIS.git
+cd TCSVT25-UFFR-IVIS
+```
+
+### 2. Create environment
+
+We recommend using Conda to manage your environment:
+```bash
+conda create -n encoder_env python=3.9
+conda activate encoder_env
+
+# Install PyTorch (Ensure it matches your CUDA version)
+pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu118](https://download.pytorch.org/whl/cu118)
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Dataset
 
 ### MiniFood and LargeFood
