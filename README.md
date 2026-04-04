@@ -19,7 +19,7 @@ This repository contains the official implementation of the paper **Unsupervised
 ### Framework Figure
 
 ```markdown
-![Framework](./assets/framework.png)
+![Framework](assets/framework.png)
 ```
 
 **Figure 1.** Overall framework of `UFFR-IVIS`. It consists of  (1) dual diversity-injected support/query representation learning that introduces instance-level and representation-level diversities for the representation learning of support/query instance to model the characteristics of high intra-class variation; and  (2) dual regularization-enhanced meta learning that designs two regularizations: auxiliary task-based intra-class regularization and similarity-guided inter-class regularization to regularize the intra-class variation and inter-class similarity modeling, respectively.
