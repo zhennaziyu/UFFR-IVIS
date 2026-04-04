@@ -25,8 +25,8 @@ This repository contains the official implementation of the paper **Unsupervised
   <figcaption><strong>Figure 1.</strong> Overall framework of `UFFR-IVIS`. It consists of  (1) dual diversity-injected support/query representation learning that introduces instance-level and representation-level diversities for the representation learning of support/query instance to model the characteristics of high intra-class variation; and  (2) dual regularization-enhanced meta learning that designs two regularizations: auxiliary task-based intra-class regularization and similarity-guided inter-class regularization to regularize the intra-class variation and inter-class similarity modeling, respectively.</figcaption>
 </p>
 
+## 📊 Experiment Results
 
----
 
 ## Project Structure
 
@@ -110,7 +110,25 @@ python eval.py --path checkpoint.pth \
   --eval_all --model_class ProtoNet --backbone_class ConvNet --num_test_episodes 10000 \
   --gpu 0 --eval_dataset Food2K --augment test --similarity cosine
 ```
+## 📝 Citation
+If you find this code or our paper useful for your research, please consider citing it 🥰:
+```
+@ARTICLE{UFFR-IVIS,
+  author={Zheng, Na and Song, Xuemeng and Tang, Wai Teng and Ng, See-Kiong and Nie, Liqiang and Zimmermann, Roger},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Unsupervised Few-Shot Food Recognition With Intra-Class Variation and Inter-Class Similarity Modeling}, 
+  year={2025},
+  volume={35},
+  number={12},
+  pages={12138-12151},
+```
+
 ## Acknowledgment
-We thank the following repos providing helpful components/functions in our work.
+We thank the following repositories for providing helpful components and implementations used in our work.
+
 - [ProtoNet](https://github.com/cyvius96/prototypical-network-pytorch)
-- [TSP-Head])(https://github.com/hanlu-nju/revisiting-UML/)
+- [TSP-Head](https://github.com/hanlu-nju/revisiting-UML/)
+- 
+## License
+
+This project is released under the Apache License 2.0.
